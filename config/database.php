@@ -57,11 +57,11 @@ return [
             'dump_command_path' => '/home/firmawanglii/ftp/www.system.ksiegowi.co.uk/public/storage/laravel-backups/temp', // only the path, so without 'mysqldump' or 'pg_dump'
             'dump_command_timeout' => 60 * 5, // 5 minute timeout
             'dump_using_single_transaction' => true, // perform dump using a single transaction
-            'host' => env('DB_HOST', 'sql.firmawanglii.nazwa.pl'),
+            'host' => env('DB_HOST', ''),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'firmawanglii_2'),
-            'username' => env('DB_USERNAME', 'firmawanglii_2'),
-            'password' => env('DB_PASSWORD', '"{8f^/+d9]M/:L3`'),
+            'database' => env('DB_DATABASE', ''),
+            'username' => env('DB_USERNAME', ''),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
