@@ -54,7 +54,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'dump_command_path' => '/home/firmawanglii/ftp/www.system.ksiegowi.co.uk/public/storage/laravel-backups/temp', // only the path, so without 'mysqldump' or 'pg_dump'
+            'dump_command_path' => '', // only the path, so without 'mysqldump' or 'pg_dump'
             'dump_command_timeout' => 60 * 5, // 5 minute timeout
             'dump_using_single_transaction' => true, // perform dump using a single transaction
             'host' => env('DB_HOST', ''),
